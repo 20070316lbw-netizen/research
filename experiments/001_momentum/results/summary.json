@@ -1,0 +1,32 @@
+{
+  "database": "data/quanttoolkit.db",
+  "database_sha256": "f38c876b7f0319513db262671a148c4b9f171ad6368e87b91dac5869913e6db3",
+  "dependency": {
+    "url": "https://github.com/20070316lbw-netizen/QuantToolKit.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "75e62159167fba2a13516049fe3b3a4de67286b1"
+    }
+  },
+  "read_start": "2023-10-01",
+  "read_end": "2026-01-31",
+  "evaluation_start": "2024-01-01",
+  "evaluation_end": "2025-12-31",
+  "window": 21,
+  "horizon": 5,
+  "gap": 1,
+  "min_tickers": 30,
+  "price_rows": 291275,
+  "paired_samples": 249987,
+  "tickers": 500,
+  "valid_ic_days": 502,
+  "first_ic_date": "2024-01-02",
+  "last_ic_date": "2025-12-31",
+  "min_daily_tickers": 495,
+  "metrics": {
+    "ic_mean": 0.0017283656767119416,
+    "ic_std": 0.18159200341203716,
+    "ic_ir": 0.009517851250257057,
+    "ic_pos": 0.5338645418326693
+  }
+}
