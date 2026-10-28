@@ -1,0 +1,17 @@
+factor,period,rank_ic,days
+mom_63,discovery,-0.006298192391145469,985
+mom_63,selection,-0.016431781559253452,481
+mom_231_skip_21,discovery,0.0017669354812824042,985
+mom_231_skip_21,selection,-0.007175628625279452,481
+intraday_strength_63,discovery,0.003569035133865774,985
+intraday_strength_63,selection,-0.007233331526807868,481
+overnight_reversal_63,discovery,0.021127136971280436,985
+overnight_reversal_63,selection,0.02023396607415499,481
+closing_pressure_21,discovery,-0.015465427350448417,985
+closing_pressure_21,selection,-0.015413597143328605,481
+price_volume_divergence_63,discovery,0.011297031804864454,985
+price_volume_divergence_63,selection,0.00721488052433774,481
+low_volatility_63,discovery,-0.02832845216523838,985
+low_volatility_63,selection,0.03579308751034764,481
+smooth_momentum_63,discovery,-0.0016236481974935765,985
+smooth_momentum_63,selection,-0.010223286888541986,481

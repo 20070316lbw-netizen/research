@@ -1,0 +1,5 @@
+baseline,period,rank_correlation
+mom_63,check,-0.46338595139564104
+mom_63,holdout,-0.48064797822828376
+mom_231_skip_21,check,-0.2212573961891394
+mom_231_skip_21,holdout,-0.25737967570621556

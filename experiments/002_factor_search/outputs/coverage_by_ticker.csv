@@ -1,0 +1,504 @@
+ticker,name,sub_industry,n_prices,first_price,last_price,first_sample,n_valid
+A,Agilent Technologies,Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AAPL,Apple Inc.,"Technology Hardware, Storage & Peripherals",2720,2016-01-04,2026-10-27,2017-01-03,2446
+ABBV,AbbVie,Biotechnology,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ABNB,Airbnb,"Hotels, Resorts & Cruise Lines",1476,2020-12-10,2026-10-27,2021-12-10,1202
+ABT,Abbott Laboratories,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ACGL,Arch Capital Group,Property & Casualty Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ACN,Accenture,IT Consulting & Other Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ADBE,Adobe Inc.,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ADI,Analog Devices,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ADM,Archer Daniels Midland,Agricultural Products & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ADP,Automatic Data Processing,Human Resource & Employment Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ADSK,Autodesk,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AEE,Ameren,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AEP,American Electric Power,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AES,AES Corporation,Independent Power Producers & Energy Traders,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AFL,Aflac,Life & Health Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AIG,American International Group,Multi-line Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AIZ,Assurant,Multi-line Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AJG,Arthur J. Gallagher & Co.,Insurance Brokers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AKAM,Akamai Technologies,Internet Services & Infrastructure,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ALB,Albemarle Corporation,Specialty Chemicals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ALGN,Align Technology,Health Care Supplies,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ALL,Allstate,Property & Casualty Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ALLE,Allegion,Building Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AMAT,Applied Materials,Semiconductor Materials & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AMCR,Amcor,Paper & Plastic Packaging Products & Materials,2720,2016-01-04,2026-10-27,2019-10-07,1752
+AMD,Advanced Micro Devices,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AME,Ametek,Electrical Components & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AMGN,Amgen,Biotechnology,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AMP,Ameriprise Financial,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AMT,American Tower,Telecom Tower REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AMZN,Amazon,Broadline Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ANET,Arista Networks,Communications Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AON,Aon plc,Insurance Brokers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AOS,A. O. Smith,Building Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+APA,APA Corporation,Oil & Gas Exploration & Production,2720,2016-01-04,2026-10-27,2017-01-03,2446
+APD,Air Products,Industrial Gases,2720,2016-01-04,2026-10-27,2017-01-03,2446
+APH,Amphenol,Electronic Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+APO,Apollo Global Management,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+APP,AppLovin,Advertising,1391,2021-04-15,2026-10-27,2022-04-13,1117
+APTV,Aptiv,Automotive Parts & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ARE,Alexandria Real Estate Equities,Office REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ARES,Ares Management,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ATO,Atmos Energy,Gas Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AVGO,Broadcom,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AVY,Avery Dennison,Paper & Plastic Packaging Products & Materials,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AWK,American Water Works,Water Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AXON,Axon Enterprise,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AXP,American Express,Consumer Finance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+AZO,AutoZone,Automotive Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BA,Boeing,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BAC,Bank of America,Diversified Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BALL,Ball Corporation,"Metal, Glass & Plastic Containers",2720,2016-01-04,2026-10-27,2017-01-03,2446
+BAX,Baxter International,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BBY,Best Buy,Computer & Electronics Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BDX,Becton Dickinson,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BE,Bloom Energy,Electrical Components & Equipment,2076,2018-07-25,2026-10-27,2019-07-26,1802
+BEN,Franklin Resources,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BF-B,Brown–Forman,Distillers & Vintners,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BG,Bunge Global,Agricultural Products & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BIIB,Biogen,Biotechnology,2720,2016-01-04,2026-10-27,2017-01-03,2404
+BKNG,Booking Holdings,"Hotels, Resorts & Cruise Lines",2720,2016-01-04,2026-10-27,2017-01-03,2446
+BKR,Baker Hughes,Oil & Gas Equipment & Services,2720,2016-01-04,2026-10-27,2017-01-03,2361
+BLK,BlackRock,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BMY,Bristol Myers Squibb,Pharmaceuticals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BNY,BNY Mellon,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BR,Broadridge Financial Solutions,Data Processing & Outsourced Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BRK-B,Berkshire Hathaway,Multi-Sector Holdings,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BRO,Brown & Brown,Insurance Brokers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BSX,Boston Scientific,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BX,Blackstone Inc.,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+BXP,"BXP, Inc.",Office REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+C,Citigroup,Diversified Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CAH,Cardinal Health,Health Care Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CARR,Carrier Global,Building Products,1661,2020-03-19,2026-10-27,2021-03-19,1387
+CASY,Casey's,Food Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CAT,Caterpillar Inc.,Construction Machinery & Heavy Transportation Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CB,Chubb Limited,Property & Casualty Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CBOE,Cboe Global Markets,Financial Exchanges & Data,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CBRE,CBRE Group,Real Estate Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CCI,Crown Castle,Telecom Tower REITs,2720,2016-01-04,2026-10-27,2017-01-03,2361
+CCL,Carnival Corporation,"Hotels, Resorts & Cruise Lines",2720,2016-01-04,2026-10-27,2017-01-03,2446
+CDNS,Cadence Design Systems,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CDW,CDW Corporation,Technology Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CEG,Constellation Energy,Electric Utilities,1198,2022-01-19,2026-10-27,2023-01-20,924
+CF,CF Industries,Fertilizers & Agricultural Chemicals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CFG,Citizens Financial Group,Regional Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CHD,Church & Dwight,Household Products,2720,2016-01-04,2026-10-27,2017-01-03,2361
+CHRW,C.H. Robinson,Air Freight & Logistics,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CHTR,Charter Communications,Cable & Satellite,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CI,Cigna,Health Care Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CIEN,Ciena,Communications Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CINF,Cincinnati Financial,Property & Casualty Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CL,Colgate-Palmolive,Household Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CLX,Clorox,Household Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CMCSA,Comcast,Cable & Satellite,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CME,CME Group,Financial Exchanges & Data,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CMG,Chipotle Mexican Grill,Restaurants,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CMI,Cummins,Construction Machinery & Heavy Transportation Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CMS,CMS Energy,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CNC,Centene Corporation,Managed Health Care,2720,2016-01-04,2026-10-27,2017-01-03,2361
+CNP,CenterPoint Energy,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+COF,Capital One,Consumer Finance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+COHR,Coherent Corp.,Electronic Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+COIN,Coinbase,Financial Exchanges & Data,1392,2021-04-14,2026-10-27,2022-04-12,1118
+COO,Cooper Companies (The),Health Care Supplies,2720,2016-01-04,2026-10-27,2017-01-03,2446
+COP,ConocoPhillips,Oil & Gas Exploration & Production,2720,2016-01-04,2026-10-27,2017-01-03,2446
+COR,Cencora,Health Care Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+COST,Costco,Consumer Staples Merchandise Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CPAY,Corpay,Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CPRT,Copart,Diversified Support Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CPT,Camden Property Trust,Multi-Family Residential REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CRH,CRH plc,Construction Materials,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CRL,Charles River Laboratories,Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CRM,Salesforce,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CRWD,CrowdStrike,Systems Software,1855,2019-06-12,2026-10-27,2020-06-11,1581
+CSCO,Cisco,Communications Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CSGP,CoStar Group,Real Estate Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CSX,CSX Corporation,Rail Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CTAS,Cintas,Diversified Support Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CTSH,Cognizant,IT Consulting & Other Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CVNA,Carvana,Automotive Retail,2388,2017-04-28,2026-10-27,2018-04-30,2114
+CVS,CVS Health,Health Care Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+CVX,Chevron Corporation,Integrated Oil & Gas,2720,2016-01-04,2026-10-27,2017-01-03,2446
+D,Dominion Energy,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DAL,Delta Air Lines,Passenger Airlines,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DASH,DoorDash,Specialized Consumer Services,1477,2020-12-09,2026-10-27,2021-12-09,1203
+DD,DuPont,Industrial Conglomerates,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DDOG,Datadog,Application Software,1786,2019-09-19,2026-10-27,2020-09-18,1512
+DE,Deere & Company,Agricultural & Farm Machinery,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DECK,Deckers Brands,Footwear,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DELL,Dell Technologies,"Technology Hardware, Storage & Peripherals",2563,2016-08-17,2026-10-27,2017-08-17,2289
+DG,Dollar General,Consumer Staples Merchandise Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DGX,Quest Diagnostics,Health Care Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DHI,D. R. Horton,Homebuilding,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DHR,Danaher Corporation,Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DIS,Walt Disney Company (The),Movies & Entertainment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DLR,Digital Realty,Data Center REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DLTR,Dollar Tree,Consumer Staples Merchandise Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DOC,Healthpeak Properties,Health Care REITs,2720,2016-01-04,2026-10-27,2017-01-03,2361
+DOV,Dover Corporation,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DOW,Dow Inc.,Commodity Chemicals,1913,2019-03-20,2026-10-27,2020-03-19,1639
+DPZ,Domino's,Restaurants,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DRI,Darden Restaurants,Restaurants,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DTE,DTE Energy,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DUK,Duke Energy,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DVA,DaVita,Health Care Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DVN,Devon Energy,Oil & Gas Exploration & Production,2720,2016-01-04,2026-10-27,2017-01-03,2446
+DXCM,Dexcom,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EBAY,eBay Inc.,Broadline Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ECHO,EchoStar,Wireless Telecommunication Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ECL,Ecolab,Specialty Chemicals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ED,Consolidated Edison,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EFX,Equifax,Research & Consulting Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EG,Everest Group,Reinsurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EIX,Edison International,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EL,Estée Lauder Companies (The),Personal Care Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ELV,Elevance Health,Managed Health Care,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EME,Emcor,Construction & Engineering,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EMR,Emerson Electric,Electrical Components & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EOG,EOG Resources,Oil & Gas Exploration & Production,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EQIX,Equinix,Data Center REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EQT,EQT Corporation,Oil & Gas Exploration & Production,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ERIE,Erie Indemnity,Insurance Brokers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ES,Eversource Energy,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ESS,Essex Property Trust,Multi-Family Residential REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ETN,Eaton Corporation,Electrical Components & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ETR,Entergy,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EVRG,Evergy,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EW,Edwards Lifesciences,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EXC,Exelon,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EXE,Expand Energy,Oil & Gas Exploration & Production,1435,2021-02-10,2026-10-27,2022-02-09,1161
+EXPD,Expeditors International,Air Freight & Logistics,2720,2016-01-04,2026-10-27,2017-01-03,2446
+EXPE,Expedia Group,"Hotels, Resorts & Cruise Lines",2720,2016-01-04,2026-10-27,2017-01-03,2446
+EXR,Extra Space Storage,Self-Storage REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+F,Ford Motor Company,Automobile Manufacturers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FANG,Diamondback Energy,Oil & Gas Exploration & Production,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FAST,Fastenal,Trading Companies & Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FCX,Freeport-McMoRan,Copper,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FDS,FactSet,Financial Exchanges & Data,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FDX,FedEx,Air Freight & Logistics,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FDXF,FedEx Freight,Cargo Ground Transportation,107,2026-05-27,2026-10-27,,0
+FE,FirstEnergy,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FERG,Ferguson Enterprises,Trading Companies & Distributors,2720,2016-01-04,2026-10-27,2021-07-02,1314
+FFIV,"F5, Inc.",Communications Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FICO,Fair Isaac,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FIS,Fidelity National Information Services,Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FISV,Fiserv,Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2361
+FITB,Fifth Third Bancorp,Regional Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FIX,Comfort Systems USA,Construction & Engineering,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FLEX,Flex Ltd.,Electronic Manufacturing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FOX,Fox Corporation (Class B),Broadcasting,1918,2019-03-13,2026-10-27,2020-03-12,1644
+FOXA,Fox Corporation (Class A),Broadcasting,1919,2019-03-12,2026-10-27,2020-03-11,1645
+FRT,Federal Realty Investment Trust,Retail REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FSLR,First Solar,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FTNT,Fortinet,Systems Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+FTV,Fortive,Industrial Machinery & Supplies & Components,2594,2016-07-05,2026-10-27,2017-07-05,2320
+GD,General Dynamics,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GDDY,GoDaddy,Internet Services & Infrastructure,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GE,GE Aerospace,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GEHC,GE HealthCare,Health Care Equipment,969,2022-12-15,2026-10-27,2023-12-18,695
+GEN,Gen Digital,Systems Software,2720,2016-01-04,2026-10-27,2017-01-03,2361
+GEV,GE Vernova,Heavy Electrical Equipment,649,2024-03-27,2026-10-27,2025-03-31,375
+GILD,Gilead Sciences,Biotechnology,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GIS,General Mills,Packaged Foods & Meats,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GL,Globe Life,Life & Health Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GLW,Corning Inc.,Electronic Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GM,General Motors,Automobile Manufacturers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GNRC,Generac,Heavy Electrical Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GOOG,Alphabet Inc. (Class C),Interactive Media & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GOOGL,Alphabet Inc. (Class A),Interactive Media & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GPC,Genuine Parts Company,Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GPN,Global Payments,Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GRMN,Garmin,Consumer Electronics,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GS,Goldman Sachs,Investment Banking & Brokerage,2720,2016-01-04,2026-10-27,2017-01-03,2446
+GWW,W. W. Grainger,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HAL,Halliburton,Oil & Gas Equipment & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HAS,Hasbro,Leisure Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HBAN,Huntington Bancshares,Regional Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HCA,HCA Healthcare,Health Care Facilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HD,Home Depot (The),Home Improvement Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HIG,Hartford (The),Property & Casualty Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HII,Huntington Ingalls Industries,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HLT,Hilton Worldwide,"Hotels, Resorts & Cruise Lines",2720,2016-01-04,2026-10-27,2017-01-03,2446
+HON,Honeywell Technologies,Industrial Conglomerates,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HONA,Honeywell Aerospace,Aerospace & Defense,94,2026-06-15,2026-10-27,,0
+HOOD,Robinhood Markets,Investment Banking & Brokerage,1318,2021-07-29,2026-10-27,2022-07-29,1044
+HPE,Hewlett Packard Enterprise,"Technology Hardware, Storage & Peripherals",2720,2016-01-04,2026-10-27,2017-01-03,2446
+HPQ,HP Inc.,"Technology Hardware, Storage & Peripherals",2720,2016-01-04,2026-10-27,2017-01-03,2446
+HRL,Hormel Foods,Packaged Foods & Meats,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HSIC,Henry Schein,Health Care Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HST,Host Hotels & Resorts,Hotel & Resort REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HSY,Hershey Company (The),Packaged Foods & Meats,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HUBB,Hubbell Incorporated,Industrial Machinery & Supplies & Components,2719,2016-01-04,2026-10-26,2017-01-03,2360
+HUM,Humana,Managed Health Care,2720,2016-01-04,2026-10-27,2017-01-03,2446
+HWM,Howmet Aerospace,Aerospace & Defense,2510,2016-11-01,2026-10-27,2017-11-01,2236
+IBKR,Interactive Brokers,Investment Banking & Brokerage,2720,2016-01-04,2026-10-27,2017-01-03,2359
+IBM,IBM,IT Consulting & Other Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ICE,Intercontinental Exchange,Financial Exchanges & Data,2720,2016-01-04,2026-10-27,2017-01-03,2446
+IDXX,Idexx Laboratories,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+IEX,IDEX Corporation,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+IFF,International Flavors & Fragrances,Specialty Chemicals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ILMN,"Illumina, Inc.",Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+INCY,Incyte,Biotechnology,2720,2016-01-04,2026-10-27,2017-01-03,2446
+INTC,Intel,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+INTU,Intuit,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+INVH,Invitation Homes,Single-Family Residential REITs,2448,2017-02-01,2026-10-27,2018-02-01,2174
+IP,International Paper,Paper & Plastic Packaging Products & Materials,2720,2016-01-04,2026-10-27,2017-01-03,2446
+IQV,IQVIA,Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+IR,Ingersoll Rand,Industrial Machinery & Supplies & Components,2378,2017-05-12,2026-10-27,2018-05-14,2104
+IRM,Iron Mountain,Other Specialized REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ISRG,Intuitive Surgical,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+IT,Gartner,IT Consulting & Other Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ITW,Illinois Tool Works,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+IVZ,Invesco,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+J,Jacobs Solutions,Construction & Engineering,2720,2016-01-04,2026-10-27,2017-01-03,2446
+JBHT,J.B. Hunt,Cargo Ground Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+JBL,Jabil,Electronic Manufacturing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+JCI,Johnson Controls,Building Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+JKHY,Jack Henry & Associates,Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+JNJ,Johnson & Johnson,Pharmaceuticals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+JPM,JPMorgan Chase,Diversified Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KDP,Keurig Dr Pepper,Soft Drinks & Non-alcoholic Beverages,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KEY,KeyCorp,Regional Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KEYS,Keysight Technologies,Electronic Equipment & Instruments,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KHC,Kraft Heinz,Packaged Foods & Meats,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KIM,Kimco Realty,Retail REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KKR,KKR & Co.,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KLAC,KLA Corporation,Semiconductor Materials & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KMB,Kimberly-Clark,Household Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KMI,Kinder Morgan,Oil & Gas Storage & Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KO,Coca-Cola Company (The),Soft Drinks & Non-alcoholic Beverages,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KR,Kroger,Food Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+KVUE,Kenvue,Personal Care Products,874,2023-05-04,2026-10-27,2024-05-06,600
+L,Loews Corporation,Multi-line Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LDOS,Leidos,Diversified Support Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LEN,Lennar,Homebuilding,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LH,Labcorp,Health Care Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LHX,L3Harris,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LII,Lennox International,Building Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LIN,Linde plc,Industrial Gases,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LITE,Lumentum,Communications Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LLY,Lilly (Eli),Pharmaceuticals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LMT,Lockheed Martin,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LNT,Alliant Energy,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LOW,Lowe's,Home Improvement Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LRCX,Lam Research,Semiconductor Materials & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LULU,Lululemon Athletica,"Apparel, Accessories & Luxury Goods",2720,2016-01-04,2026-10-27,2017-01-03,2446
+LUV,Southwest Airlines,Passenger Airlines,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LVS,Las Vegas Sands,Casinos & Gaming,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LYB,LyondellBasell,Specialty Chemicals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+LYV,Live Nation Entertainment,Movies & Entertainment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MA,Mastercard,Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MAA,Mid-America Apartment Communities,Multi-Family Residential REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MAR,Marriott International,"Hotels, Resorts & Cruise Lines",2720,2016-01-04,2026-10-27,2017-01-03,2446
+MAS,Masco,Building Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MCD,McDonald's,Restaurants,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MCHP,Microchip Technology,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MCK,McKesson,Health Care Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MCO,Moody's Corporation,Financial Exchanges & Data,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MDLZ,Mondelez International,Packaged Foods & Meats,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MDT,Medtronic,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MET,MetLife,Life & Health Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+META,Meta Platforms,Interactive Media & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MGM,MGM Resorts,Casinos & Gaming,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MKC,McCormick & Company,Packaged Foods & Meats,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MLM,Martin Marietta Materials,Construction Materials,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MMM,3M,Industrial Conglomerates,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MNST,Monster Beverage,Soft Drinks & Non-alcoholic Beverages,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MO,Altria,Tobacco,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MOS,Mosaic Company (The),Fertilizers & Agricultural Chemicals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MPC,Marathon Petroleum,Oil & Gas Refining & Marketing,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MPWR,Monolithic Power Systems,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MRK,Merck & Co.,Pharmaceuticals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MRNA,Moderna,Biotechnology,1982,2018-12-07,2026-10-27,2019-12-09,1708
+MRSH,Marsh McLennan,Insurance Brokers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MRVL,Marvell Technology,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MS,Morgan Stanley,Investment Banking & Brokerage,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MSCI,MSCI,Financial Exchanges & Data,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MSFT,Microsoft,Systems Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MSI,Motorola Solutions,Communications Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MTB,M&T Bank,Regional Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MTD,Mettler Toledo,Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+MU,Micron Technology,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NCLH,Norwegian Cruise Line Holdings,"Hotels, Resorts & Cruise Lines",2720,2016-01-04,2026-10-27,2017-01-03,2446
+NDAQ,"Nasdaq, Inc.",Financial Exchanges & Data,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NDSN,Nordson Corporation,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NEE,NextEra Energy,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NEM,Newmont,Gold,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NFLX,Netflix,Movies & Entertainment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NI,NiSource,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NKE,"Nike, Inc.","Apparel, Accessories & Luxury Goods",2720,2016-01-04,2026-10-27,2017-01-03,2446
+NOC,Northrop Grumman,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NOW,ServiceNow,Systems Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NRG,NRG Energy,Independent Power Producers & Energy Traders,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NSC,Norfolk Southern,Rail Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NTAP,NetApp,"Technology Hardware, Storage & Peripherals",2720,2016-01-04,2026-10-27,2017-01-03,2446
+NTRS,Northern Trust,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NUE,Nucor,Steel,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NVDA,Nvidia,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NVR,"NVR, Inc.",Homebuilding,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NWS,News Corp (Class B),Publishing,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NWSA,News Corp (Class A),Publishing,2720,2016-01-04,2026-10-27,2017-01-03,2446
+NXPI,NXP Semiconductors,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+O,Realty Income,Retail REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ODFL,Old Dominion,Cargo Ground Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+OKE,Oneok,Oil & Gas Storage & Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+OMC,Omnicom Group,Advertising,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ON,ON Semiconductor,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ORCL,Oracle Corporation,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ORLY,O'Reilly Automotive,Automotive Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+OTIS,Otis Worldwide,Industrial Machinery & Supplies & Components,1661,2020-03-19,2026-10-27,2021-03-19,1387
+OXY,Occidental Petroleum,Oil & Gas Exploration & Production,2720,2016-01-04,2026-10-27,2017-01-03,2446
+P,Everpure,"Technology Hardware, Storage & Peripherals",2720,2016-01-04,2026-10-27,2017-01-03,2446
+PANW,Palo Alto Networks,Systems Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PAYX,Paychex,Human Resource & Employment Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PCAR,Paccar,Construction Machinery & Heavy Transportation Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PCG,PG&E Corporation,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PEG,Public Service Enterprise Group,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PEP,PepsiCo,Soft Drinks & Non-alcoholic Beverages,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PFE,Pfizer,Pharmaceuticals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PFG,Principal Financial Group,Life & Health Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2276
+PG,Procter & Gamble,Personal Care Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PGR,Progressive Corporation,Property & Casualty Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PH,Parker Hannifin,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PHM,PulteGroup,Homebuilding,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PKG,Packaging Corporation of America,Paper & Plastic Packaging Products & Materials,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PLD,Prologis,Industrial REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PLTR,Palantir Technologies,Application Software,1526,2020-09-30,2026-10-27,2021-09-30,1252
+PM,Philip Morris International,Tobacco,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PNC,PNC Financial Services,Diversified Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PNR,Pentair,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PNW,Pinnacle West Capital,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PODD,Insulet Corporation,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PPG,PPG Industries,Specialty Chemicals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PPL,PPL Corporation,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PRU,Prudential Financial,Life & Health Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PSA,Public Storage,Self-Storage REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PSX,Phillips 66,Oil & Gas Refining & Marketing,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PTC,PTC Inc.,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PWR,Quanta Services,Construction & Engineering,2720,2016-01-04,2026-10-27,2017-01-03,2446
+PYPL,PayPal,Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+Q,Qnity Electronics,Semiconductor Materials & Equipment,252,2025-10-27,2026-10-27,,0
+QCOM,Qualcomm,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+RCL,Royal Caribbean Group,"Hotels, Resorts & Cruise Lines",2720,2016-01-04,2026-10-27,2017-01-03,2446
+RDDT,Reddit,Interactive Media & Services,653,2024-03-21,2026-10-27,2025-03-25,379
+REG,Regency Centers,Retail REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+REGN,Regeneron Pharmaceuticals,Biotechnology,2720,2016-01-04,2026-10-27,2017-01-03,2446
+RF,Regions Financial Corporation,Regional Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+RJF,Raymond James Financial,Investment Banking & Brokerage,2720,2016-01-04,2026-10-27,2017-01-03,2446
+RL,Ralph Lauren Corporation,"Apparel, Accessories & Luxury Goods",2720,2016-01-04,2026-10-27,2017-01-03,2446
+RMD,ResMed,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ROK,Rockwell Automation,Electrical Components & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ROL,"Rollins, Inc.",Environmental & Facilities Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ROP,Roper Technologies,Electronic Equipment & Instruments,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ROST,Ross Stores,Apparel Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+RSG,Republic Services,Environmental & Facilities Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+RTX,RTX Corporation,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+RVTY,Revvity,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SBAC,SBA Communications,Telecom Tower REITs,2720,2016-01-04,2026-10-27,2017-01-03,2362
+SBUX,Starbucks,Restaurants,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SCHW,Charles Schwab Corporation,Investment Banking & Brokerage,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SHW,Sherwin-Williams,Specialty Chemicals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SJM,J.M. Smucker Company (The),Packaged Foods & Meats,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SKYD,Skydance,Movies & Entertainment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SLB,Schlumberger,Oil & Gas Equipment & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SMCI,Supermicro,"Technology Hardware, Storage & Peripherals",2720,2016-01-04,2026-10-27,2017-01-03,2425
+SNA,Snap-on,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SNDK,Sandisk,"Technology Hardware, Storage & Peripherals",428,2025-02-13,2026-10-27,2026-02-17,154
+SNPS,Synopsys,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SO,Southern Company,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SOLV,Solventum,Health Care Technology,650,2024-03-26,2026-10-27,2025-03-28,376
+SPG,Simon Property Group,Retail REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SPGI,S&P Global,Financial Exchanges & Data,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SRE,Sempra,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+STE,Steris,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+STLD,Steel Dynamics,Steel,2720,2016-01-04,2026-10-27,2017-01-03,2446
+STT,State Street Corporation,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+STX,Seagate Technology,"Technology Hardware, Storage & Peripherals",2720,2016-01-04,2026-10-27,2017-01-03,2446
+STZ,Constellation Brands,Distillers & Vintners,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SW,Smurfit Westrock,Paper & Plastic Packaging Products & Materials,2720,2016-01-04,2026-10-27,2024-10-31,476
+SWK,Stanley Black & Decker,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SWKS,Skyworks Solutions,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SYF,Synchrony Financial,Consumer Finance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SYK,Stryker Corporation,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+SYY,Sysco,Food Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+T,AT&T,Integrated Telecommunication Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TDG,TransDigm Group,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TDY,Teledyne Technologies,Electronic Equipment & Instruments,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TECH,Bio-Techne,Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TEL,TE Connectivity,Electronic Manufacturing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TER,Teradyne,Semiconductor Materials & Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TFC,Truist Financial,Diversified Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TGT,Target Corporation,Consumer Staples Merchandise Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TJX,TJX Companies,Apparel Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TKO,TKO Group Holdings,Movies & Entertainment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TMO,Thermo Fisher Scientific,Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TMUS,T-Mobile US,Wireless Telecommunication Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TPL,Texas Pacific Land Corporation,Oil & Gas Exploration & Production,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TPR,"Tapestry, Inc.","Apparel, Accessories & Luxury Goods",2720,2016-01-04,2026-10-27,2017-01-03,2446
+TRGP,Targa Resources,Oil & Gas Storage & Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TRMB,Trimble Inc.,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TROW,T. Rowe Price,Asset Management & Custody Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TRV,Travelers Companies (The),Property & Casualty Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TSCO,Tractor Supply,Other Specialty Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TSLA,"Tesla, Inc.",Automobile Manufacturers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TSN,Tyson Foods,Packaged Foods & Meats,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TT,Trane Technologies,Building Products,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TTWO,Take-Two Interactive,Interactive Home Entertainment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TWLO,Twilio,Systems Software,2601,2016-06-23,2026-10-27,2017-06-23,2327
+TXN,Texas Instruments,Semiconductors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TXT,Textron,Aerospace & Defense,2720,2016-01-04,2026-10-27,2017-01-03,2446
+TYL,Tyler Technologies,Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+UAL,United Airlines Holdings,Passenger Airlines,2720,2016-01-04,2026-10-27,2017-01-03,2446
+UBER,Uber,Passenger Ground Transportation,1877,2019-05-10,2026-10-27,2020-05-11,1603
+UDR,"UDR, Inc.",Multi-Family Residential REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+UHS,Universal Health Services,Health Care Facilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ULTA,Ulta Beauty,Other Specialty Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+UNH,UnitedHealth Group,Managed Health Care,2720,2016-01-04,2026-10-27,2017-01-03,2446
+UNP,Union Pacific Corporation,Rail Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+UPS,United Parcel Service,Air Freight & Logistics,2720,2016-01-04,2026-10-27,2017-01-03,2446
+URI,United Rentals,Trading Companies & Distributors,2720,2016-01-04,2026-10-27,2017-01-03,2446
+USB,U.S. Bancorp,Diversified Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+V,Visa Inc.,Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VEEV,Veeva Systems,Health Care Technology,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VICI,Vici Properties,Hotel & Resort REITs,2217,2018-01-02,2026-10-27,2019-01-03,1943
+VLO,Valero Energy,Oil & Gas Refining & Marketing,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VLTO,Veralto,Environmental & Facilities Services,769,2023-10-04,2026-10-27,2024-10-04,495
+VMC,Vulcan Materials Company,Construction Materials,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VMRK,Vivmark Residential,Multi-Family Residential REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VRSK,Verisk Analytics,Research & Consulting Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VRSN,Verisign,Internet Services & Infrastructure,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VRT,Vertiv,Electrical Components & Equipment,2070,2018-08-02,2026-10-27,2020-03-31,1631
+VRTX,Vertex Pharmaceuticals,Biotechnology,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VST,Vistra Corp.,Electric Utilities,2529,2016-10-05,2026-10-27,2017-10-05,2255
+VTR,Ventas,Health Care REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VTRS,Viatris,Pharmaceuticals,2720,2016-01-04,2026-10-27,2017-01-03,2446
+VYLR,Vylor,Agricultural Products & Services,19,2026-10-01,2026-10-27,,0
+VZ,Verizon,Integrated Telecommunication Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WAB,Wabtec,Construction Machinery & Heavy Transportation Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WAT,Waters Corporation,Life Sciences Tools & Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WDAY,"Workday, Inc.",Application Software,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WDC,Western Digital,"Technology Hardware, Storage & Peripherals",2720,2016-01-04,2026-10-27,2017-01-03,2446
+WEC,WEC Energy Group,Electric Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WELL,Welltower,Health Care REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WFC,Wells Fargo,Diversified Banks,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WM,Waste Management,Environmental & Facilities Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WMB,Williams Companies,Oil & Gas Storage & Transportation,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WMT,Walmart,Consumer Staples Merchandise Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WRB,W. R. Berkley Corporation,Property & Casualty Insurance,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WSM,"Williams-Sonoma, Inc.",Homefurnishing Retail,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WST,West Pharmaceutical Services,Health Care Supplies,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WTW,Willis Towers Watson,Insurance Brokers,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WY,Weyerhaeuser,Timber REITs,2720,2016-01-04,2026-10-27,2017-01-03,2446
+WYNN,Wynn Resorts,Casinos & Gaming,2720,2016-01-04,2026-10-27,2017-01-03,2446
+XEL,Xcel Energy,Multi-Utilities,2720,2016-01-04,2026-10-27,2017-01-03,2361
+XOM,ExxonMobil,Integrated Oil & Gas,2720,2016-01-04,2026-10-27,2017-01-03,2446
+XYL,Xylem Inc.,Industrial Machinery & Supplies & Components,2720,2016-01-04,2026-10-27,2017-01-03,2446
+XYZ,"Block, Inc.",Transaction & Payment Processing Services,2720,2016-01-04,2026-10-27,2017-01-03,2446
+YUM,Yum! Brands,Restaurants,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ZBH,Zimmer Biomet,Health Care Equipment,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ZBRA,Zebra Technologies,Electronic Equipment & Instruments,2720,2016-01-04,2026-10-27,2017-01-03,2446
+ZTS,Zoetis,Pharmaceuticals,2720,2016-01-04,2026-10-27,2017-01-03,2446

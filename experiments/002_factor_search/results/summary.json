@@ -1,0 +1,197 @@
+{
+  "database": "data/quanttoolkit.db",
+  "database_sha256": "237e228b01152eacc68dffafb91c90471f6bd4bd9551b140b366d3ca4d8e13da",
+  "dependency": {
+    "url": "https://github.com/20070316lbw-netizen/QuantToolKit.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "75e62159167fba2a13516049fe3b3a4de67286b1"
+    }
+  },
+  "selected": "low_volatility_63",
+  "protocol_sha256": "3709c3845e023e762968282ec3d1a4d65d4f36cc73063d9dd520aa5d0ca8deb8",
+  "dependency_commit": "75e62159167fba2a13516049fe3b3a4de67286b1",
+  "price_rows": 1321702,
+  "tickers": 503,
+  "price_start": "2016-01-04",
+  "price_end": "2026-10-27",
+  "horizon": 21,
+  "gap": 1,
+  "min_names": 100,
+  "comparison": [
+    {
+      "factor": "mom_63",
+      "period": "discovery",
+      "rank_ic": -0.006298192391145469,
+      "ic_ir_unannualized": -0.034000847822849616,
+      "ic_positive": 0.5309644670050762,
+      "days": 985,
+      "first": "2017-01-03",
+      "last": "2020-11-30",
+      "mean_stocks": 468.5756345177665,
+      "q5_minus_q1_forward_return": -0.0035646334823071614
+    },
+    {
+      "factor": "mom_231_skip_21",
+      "period": "discovery",
+      "rank_ic": 0.0017669354812824042,
+      "ic_ir_unannualized": 0.008100261107044322,
+      "ic_positive": 0.5187817258883248,
+      "days": 985,
+      "first": "2017-01-03",
+      "last": "2020-11-30",
+      "mean_stocks": 468.5756345177665,
+      "q5_minus_q1_forward_return": -0.0013407787118649881
+    },
+    {
+      "factor": "low_volatility_63",
+      "period": "discovery",
+      "rank_ic": -0.02832845216523838,
+      "ic_ir_unannualized": -0.12463812704539307,
+      "ic_positive": 0.48020304568527916,
+      "days": 985,
+      "first": "2017-01-03",
+      "last": "2020-11-30",
+      "mean_stocks": 468.5756345177665,
+      "q5_minus_q1_forward_return": -0.012325209494697738
+    },
+    {
+      "factor": "mom_63",
+      "period": "selection",
+      "rank_ic": -0.016431781559253452,
+      "ic_ir_unannualized": -0.07708406621169081,
+      "ic_positive": 0.48232848232848236,
+      "days": 481,
+      "first": "2021-01-04",
+      "last": "2022-11-29",
+      "mean_stocks": 485.4158004158004,
+      "q5_minus_q1_forward_return": -0.001321444886403908
+    },
+    {
+      "factor": "mom_231_skip_21",
+      "period": "selection",
+      "rank_ic": -0.007175628625279452,
+      "ic_ir_unannualized": -0.03760551918515465,
+      "ic_positive": 0.5280665280665281,
+      "days": 481,
+      "first": "2021-01-04",
+      "last": "2022-11-29",
+      "mean_stocks": 485.4158004158004,
+      "q5_minus_q1_forward_return": 4.97014830829358e-05
+    },
+    {
+      "factor": "low_volatility_63",
+      "period": "selection",
+      "rank_ic": 0.03579308751034764,
+      "ic_ir_unannualized": 0.14611915675692033,
+      "ic_positive": 0.5717255717255717,
+      "days": 481,
+      "first": "2021-01-04",
+      "last": "2022-11-29",
+      "mean_stocks": 485.4158004158004,
+      "q5_minus_q1_forward_return": 0.0013787601509095675
+    },
+    {
+      "factor": "mom_63",
+      "period": "check",
+      "rank_ic": -0.017067791935178097,
+      "ic_ir_unannualized": -0.10758425506418418,
+      "ic_positive": 0.4875,
+      "days": 480,
+      "first": "2023-01-03",
+      "last": "2024-11-27",
+      "mean_stocks": 491.8520833333333,
+      "q5_minus_q1_forward_return": -0.003288690439625544
+    },
+    {
+      "factor": "mom_231_skip_21",
+      "period": "check",
+      "rank_ic": 0.047634123043151115,
+      "ic_ir_unannualized": 0.27075589956178175,
+      "ic_positive": 0.63125,
+      "days": 480,
+      "first": "2023-01-03",
+      "last": "2024-11-27",
+      "mean_stocks": 491.8520833333333,
+      "q5_minus_q1_forward_return": 0.009278732063903507
+    },
+    {
+      "factor": "low_volatility_63",
+      "period": "check",
+      "rank_ic": -0.04619006837158892,
+      "ic_ir_unannualized": -0.2215577367207331,
+      "ic_positive": 0.44583333333333336,
+      "days": 480,
+      "first": "2023-01-03",
+      "last": "2024-11-27",
+      "mean_stocks": 491.8520833333333,
+      "q5_minus_q1_forward_return": -0.022298696230970038
+    },
+    {
+      "factor": "mom_63",
+      "period": "holdout",
+      "rank_ic": -0.021346054450923906,
+      "ic_ir_unannualized": -0.10784036022953114,
+      "ic_positive": 0.5092165898617511,
+      "days": 434,
+      "first": "2025-01-02",
+      "last": "2026-09-25",
+      "mean_stocks": 497.7603686635945,
+      "q5_minus_q1_forward_return": 0.0006359278007469723
+    },
+    {
+      "factor": "mom_231_skip_21",
+      "period": "holdout",
+      "rank_ic": 0.015473465465408441,
+      "ic_ir_unannualized": 0.07870010427539019,
+      "ic_positive": 0.543778801843318,
+      "days": 434,
+      "first": "2025-01-02",
+      "last": "2026-09-25",
+      "mean_stocks": 497.7603686635945,
+      "q5_minus_q1_forward_return": 0.012057075790819079
+    },
+    {
+      "factor": "low_volatility_63",
+      "period": "holdout",
+      "rank_ic": -0.07087991851202213,
+      "ic_ir_unannualized": -0.2889327525234828,
+      "ic_positive": 0.3824884792626728,
+      "days": 434,
+      "first": "2025-01-02",
+      "last": "2026-09-25",
+      "mean_stocks": 497.7603686635945,
+      "q5_minus_q1_forward_return": -0.03162100042801591
+    }
+  ],
+  "uncertainty": [
+    {
+      "period": "check",
+      "baseline": "mom_63",
+      "mean_ic_difference": -0.02912227643641083,
+      "ci95_low": -0.10751764437624073,
+      "ci95_high": 0.04726067780500626
+    },
+    {
+      "period": "check",
+      "baseline": "mom_231_skip_21",
+      "mean_ic_difference": -0.09382419141474004,
+      "ci95_low": -0.1656800632480638,
+      "ci95_high": -0.017829983294028583
+    },
+    {
+      "period": "holdout",
+      "baseline": "mom_63",
+      "mean_ic_difference": -0.04953386406109824,
+      "ci95_low": -0.16868035668946926,
+      "ci95_high": 0.0782855058199538
+    },
+    {
+      "period": "holdout",
+      "baseline": "mom_231_skip_21",
+      "mean_ic_difference": -0.08635338397743057,
+      "ci95_low": -0.202119536249068,
+      "ci95_high": 0.04277576734448826
+    }
+  ]
+}
