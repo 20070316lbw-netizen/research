@@ -187,19 +187,36 @@ def sample_mask(
     return mask.reindex(prices.index).fillna(False)
 
 
+def pair_mask(factor, other, mask):
+    """掩码内因子和比较值都非空的样本"""
+    index = mask.index
+    return (
+        mask.reindex(index).fillna(False)
+        & factor.reindex(index).notna()
+        & other.reindex(index).notna()
+    )
+
+
 def daily_rank_ic(factor, other, mask, min_names=MIN_NAMES):
-    """调用工具箱 Rank IC, 截面人数不足时记为缺失"""
-    score = rank_ic(factor=factor.where(mask), forward_return=other.where(mask))
-    counts = mask.groupby(level="date").sum()
+    """调用工具箱 Rank IC, 当天有效配对不足时记为缺失"""
+    paired = pair_mask(factor, other, mask)
+    score = rank_ic(factor=factor.where(paired), forward_return=other.where(paired))
+    counts = paired.groupby(level="date").sum()
     score = score.reindex(counts.index)
     score = score.where(counts >= min_names)
     score.name = "rank_ic"
     return score
 
 
-def forward_quintiles(factor, label, mask):
-    """按当天平均秩把未来收益分成五档, 返回每日各档均值"""
-    kept = mask.fillna(False)
+def forward_quintiles(factor, label, mask, min_names=MIN_NAMES):
+    """按当天平均秩把未来收益分成五档, 返回每日各档均值
+
+    只保留有效配对不少于 min_names 的日期, 与 Rank IC 使用同一门槛
+    """
+    paired = pair_mask(factor, label, mask)
+    counts = paired.groupby(level="date").sum()
+    eligible = counts[counts >= min_names].index
+    kept = paired & paired.index.get_level_values("date").isin(eligible)
     data = pd.DataFrame({"factor": factor, "label": label}).loc[kept]
     columns = [1, 2, 3, 4, 5]
     if data.empty:
@@ -280,9 +297,9 @@ def select(prices, factors, out, *, horizon=HORIZON, min_names=MIN_NAMES):
     chosen = choose_factor(table)
     record = {
         "selected": chosen,
-        "protocol_sha256": hashlib.sha256(PROTOCOL_PATH.read_bytes()).hexdigest(),
         "metrics_seen": ["discovery", "selection"],
     }
+    record.update(fingerprints())
     (out / "frozen_selection.json").write_text(
         json.dumps(record, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -310,7 +327,6 @@ def evaluate(
     )
     out.mkdir(parents=True, exist_ok=True)
     scores.to_csv(out / "daily_rank_ic.csv", float_format="%.10f")
-    counts = mask.groupby(level="date").sum()
     rows, differences, yearly, quintiles = [], [], [], []
     for period in PERIODS:
         dates = period_dates(scores.index, period, horizon)
@@ -319,8 +335,11 @@ def evaluate(
             if part.empty:
                 continue
             stats = ic_summary(ic=part)
-            groups = forward_quintiles(factors[name], label, mask)
+            groups = forward_quintiles(
+                factors[name], label, mask, min_names=min_names
+            )
             groups = groups.loc[groups.index.isin(dates)]
+            pair_counts = pair_mask(factors[name], label, mask).groupby(level="date").sum()
             rows.append(
                 {
                     "factor": name,
@@ -331,7 +350,7 @@ def evaluate(
                     "days": len(part),
                     "first": str(part.index.min().date()),
                     "last": str(part.index.max().date()),
-                    "mean_stocks": float(counts.reindex(part.index).mean()),
+                    "mean_stocks": float(pair_counts.reindex(part.index).mean()),
                     "q5_minus_q1_forward_return": float(
                         (groups[5] - groups[1]).mean()
                     ),
@@ -433,6 +452,16 @@ def _digest():
         return hashlib.file_digest(source, "sha256").hexdigest()
 
 
+def fingerprints():
+    """当前数据库, 协议和已安装工具箱提交"""
+    info = json.loads(distribution("quanttoolkit").read_text("direct_url.json"))
+    return {
+        "database_sha256": _digest(),
+        "protocol_sha256": hashlib.sha256(PROTOCOL_PATH.read_bytes()).hexdigest(),
+        "dependency_commit": info["vcs_info"]["commit_id"],
+    }
+
+
 def _records(frame):
     rows = []
     for raw in frame.to_dict(orient="records"):
@@ -449,14 +478,16 @@ def _records(frame):
 
 def write_summary(prices, chosen, comparison, uncertainty, out):
     """保存数据库指纹, 依赖提交和本轮汇总"""
+    identity = fingerprints()
     payload = {
         "database": str(DB_PATH.relative_to(ROOT)),
-        "database_sha256": _digest(),
+        "database_sha256": identity["database_sha256"],
         "dependency": json.loads(
             distribution("quanttoolkit").read_text("direct_url.json")
         ),
         "selected": chosen,
-        "protocol_sha256": hashlib.sha256(PROTOCOL_PATH.read_bytes()).hexdigest(),
+        "protocol_sha256": identity["protocol_sha256"],
+        "dependency_commit": identity["dependency_commit"],
         "price_rows": len(prices),
         "tickers": int(prices.index.get_level_values("ticker").nunique()),
         "price_start": str(prices.index.get_level_values("date").min().date()),

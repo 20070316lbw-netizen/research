@@ -23,7 +23,7 @@
 | 检查期 | 2023-01-01 至 2024-12-31 |
 | 留出期 | 2025-01-01 至最后一条完整标签 |
 | 共同样本 | 八个因子和标签同时有效, 至少 252 条历史价格变化, 最近 64 条记录成交量大于 0, 标签进出场也有成交量 |
-| 截面 | 当天至少 100 只证券才计算 Rank IC |
+| 截面 | 当天因子和比较值都非空的证券至少 100 只, Rank IC 和五分位使用同一门槛 |
 | 边界 | 标签退出日越过区间终点的信号日剔除, 不改入场日 |
 | 时序 | 窗口, gap 和标签都按该证券自己的交易记录计数 |
 | 不确定性 | 因子与基准的日 Rank IC 差值, 63 日移动区块, 2000 次, 种子 18 |
@@ -69,7 +69,7 @@ uv run --locked python -m unittest discover -s experiments/002_factor_search -p 
 ```
 
 `experiment.py` 先写 `results/selection.csv` 和 `results/frozen_selection.json`, 再评估被冻结的因子.
-`followup.py` 不再改首轮选择, 只评估隔夜反转, 并记录追加规则在发现期和选择期是否仍然指向它.
+`followup.py` 不再改首轮选择. 读取已有 `selection.csv` 前, 会核对 `frozen_selection.json` 里的数据库, 协议和工具箱提交. 对不上就停止, 需要先重跑 `experiment.py`. 追加结果自己的指纹写在 `followup_overnight/followup_protocol.json`.
 笔记本在实验目录中运行, 依赖组里有 `ipykernel` 和 `matplotlib`.
 日志追加在本目录 `trace.log`, 不纳入 Git.
 
@@ -153,6 +153,12 @@ uv run --locked python -m unittest discover -s experiments/002_factor_search -p 
 按预先写好的规则, 这次冻结的是低波动. 它在选择期的 Rank IC 最高, 检查期相对 12-1 动量的区块区间位于 0 以下, 留出期的点估计仍为负.
 隔夜反转在前两段样本上为正, 留出期的点估计也高于 12-1 动量, 但区间很宽, 检查期的方向已经转负, 换持有期和去掉行业均值之后优势不稳定.
 目前只能把隔夜反转留成一个公式明确的研究候选, 还不能说它已经不差于 12-1 动量.
+
+## 复核
+
+按有效配对重算门槛并核对选择指纹之后, 又跑了一遍 `experiment.py`, `followup.py` 和 `main.ipynb`.
+`results/` 与 `followup_overnight/` 里的 Rank IC, 天数, 五分位, 区块区间, 分年结果和稳健性表与改前逐项相同, 没有一个研究数字变化.
+503 只证券都有子行业标签, 共同样本里没有行业缺失, 去均值没有把当天的有效配对压到 100 只以下.
 
 ## 局限
 

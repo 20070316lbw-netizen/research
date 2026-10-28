@@ -1,6 +1,7 @@
 """用手算行情检查复权恒等式, 标签位置, 补齐日和选择规则"""
 
 import io
+import json
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -21,7 +22,7 @@ from experiment import (
     sample_mask,
     second_look_choice,
 )
-from followup import followup_record
+from followup import followup_record, require_same_fingerprint, selection_table, stamp_fingerprint
 from quanttoolkit.panel.returns import log_returns
 from quanttoolkit.tracelog import configure_log, print_call_chain
 
@@ -214,13 +215,96 @@ class FactorSearchTests(unittest.TestCase):
         )
         factor = pd.Series([1.0, 2.0, 3.0, 4.0, 5.0], index=index)
         label = pd.Series([0.1, 0.2, 0.3, 0.4, 0.5], index=index)
-        daily = forward_quintiles(factor, label, pd.Series(True, index=index))
+        daily = forward_quintiles(
+            factor, label, pd.Series(True, index=index), min_names=5
+        )
         self.assertAlmostEqual(daily.loc[date, 5] - daily.loc[date, 1], 0.4)
         industry = pd.Series(["Tech", "Tech", "Bank"], index=list("ABC"))
         neutral = demean_by_industry(
             pd.Series([1.0, 3.0, 10.0], index=index[:3]), industry
         )
         self.assertEqual(neutral.tolist(), [-1.0, 1.0, 0.0])
+
+    def test_missing_industry_does_not_keep_a_two_name_correlation(self):
+        date = pd.Timestamp("2024-01-02")
+        tickers = [f"T{i}" for i in range(120)]
+        index = pd.MultiIndex.from_product([[date], tickers], names=["date", "ticker"])
+        raw = pd.Series(np.arange(120, dtype=float), index=index)
+        industry = pd.Series("Tech", index=tickers[:2])
+        factor = demean_by_industry(raw, industry)
+        label = demean_by_industry(raw, industry)
+        mask = pd.Series(True, index=index)
+        score = daily_rank_ic(factor, label, mask, min_names=100)
+        self.assertEqual(int(mask.sum()), 120)
+        self.assertEqual(int((factor.notna() & label.notna()).sum()), 2)
+        self.assertTrue(np.isnan(score.iloc[0]))
+        self.assertAlmostEqual(
+            daily_rank_ic(factor, label, mask, min_names=2).iloc[0], 1.0
+        )
+
+    def test_quintiles_drop_dates_below_the_same_pair_floor(self):
+        date = pd.Timestamp("2024-01-02")
+        tickers = [f"T{i}" for i in range(120)]
+        index = pd.MultiIndex.from_product([[date], tickers], names=["date", "ticker"])
+        factor = pd.Series(np.nan, index=index)
+        label = pd.Series(np.nan, index=index)
+        factor.iloc[:2] = [1.0, 2.0]
+        label.iloc[:2] = [0.1, 0.2]
+        mask = pd.Series(True, index=index)
+        blocked = forward_quintiles(factor, label, mask, min_names=100)
+        self.assertNotIn(date, blocked.index)
+        kept = forward_quintiles(factor, label, mask, min_names=2)
+        self.assertIn(date, kept.index)
+
+    def test_followup_rejects_stale_selection_fingerprint(self):
+        current = {
+            "database_sha256": "new-db",
+            "protocol_sha256": "proto",
+            "dependency_commit": "abc",
+        }
+        frozen = {
+            "selected": "low_volatility_63",
+            "database_sha256": "old-db",
+            "protocol_sha256": "proto",
+            "dependency_commit": "abc",
+        }
+        with self.assertRaises(RuntimeError):
+            require_same_fingerprint(frozen, current)
+        frozen["database_sha256"] = "new-db"
+        frozen["protocol_sha256"] = "old-proto"
+        with self.assertRaises(RuntimeError):
+            require_same_fingerprint(frozen, current)
+        frozen["protocol_sha256"] = "proto"
+        require_same_fingerprint(frozen, current)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "selection.csv").write_text(
+                "factor,period,rank_ic,days\n"
+                "overnight_reversal_63,discovery,0.02,10\n"
+                "overnight_reversal_63,selection,0.01,10\n",
+                encoding="utf-8",
+            )
+            (root / "frozen_selection.json").write_text(
+                json.dumps(frozen), encoding="utf-8"
+            )
+            stale = dict(current)
+            stale["database_sha256"] = "other-db"
+            with (
+                patch("experiment.RESULTS", root),
+                patch("experiment.fingerprints", return_value=stale),
+                self.assertRaises(RuntimeError),
+            ):
+                selection_table(None, None)
+            with (
+                patch("experiment.RESULTS", root),
+                patch("experiment.fingerprints", return_value=current),
+            ):
+                table = selection_table(None, None)
+                stamped = stamp_fingerprint({})
+            self.assertEqual(table.iloc[0]["factor"], "overnight_reversal_63")
+            self.assertEqual(stamped["database_sha256"], "new-db")
+            self.assertEqual(stamped["protocol_sha256"], "proto")
+            self.assertEqual(stamped["dependency_commit"], "abc")
 
     def test_selection_rules_ignore_later_periods_and_benchmarks(self):
         table = pd.DataFrame(

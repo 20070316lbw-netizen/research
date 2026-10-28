@@ -1,8 +1,10 @@
 {
   "selected": "low_volatility_63",
-  "protocol_sha256": "3709c3845e023e762968282ec3d1a4d65d4f36cc73063d9dd520aa5d0ca8deb8",
   "metrics_seen": [
     "discovery",
     "selection"
-  ]
+  ],
+  "database_sha256": "237e228b01152eacc68dffafb91c90471f6bd4bd9551b140b366d3ca4d8e13da",
+  "protocol_sha256": "3709c3845e023e762968282ec3d1a4d65d4f36cc73063d9dd520aa5d0ca8deb8",
+  "dependency_commit": "75e62159167fba2a13516049fe3b3a4de67286b1"
 }

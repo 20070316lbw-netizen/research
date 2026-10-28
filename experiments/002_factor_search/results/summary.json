@@ -10,6 +10,7 @@
   },
   "selected": "low_volatility_63",
   "protocol_sha256": "3709c3845e023e762968282ec3d1a4d65d4f36cc73063d9dd520aa5d0ca8deb8",
+  "dependency_commit": "75e62159167fba2a13516049fe3b3a4de67286b1",
   "price_rows": 1321702,
   "tickers": 503,
   "price_start": "2016-01-04",

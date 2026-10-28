@@ -14,6 +14,7 @@ from quanttoolkit.tracelog import configure_log, trace
 
 OUT = Path(__file__).resolve().parent / "followup_overnight"
 LOG_PATH = Path(__file__).resolve().parent / "trace.log"
+FINGERPRINT_KEYS = ("database_sha256", "protocol_sha256", "dependency_commit")
 
 
 def followup_record(table):
@@ -38,10 +39,45 @@ def followup_record(table):
     }
 
 
+def require_same_fingerprint(frozen, current):
+    """首轮冻结记录必须对上当前数据库, 协议和工具箱提交"""
+    missing = [key for key in FINGERPRINT_KEYS if key not in frozen]
+    if missing:
+        raise RuntimeError(
+            "冻结记录缺少 "
+            + ", ".join(missing)
+            + ", 请重新运行 experiment.py 后再执行 followup.py"
+        )
+    mismatched = [
+        key for key in FINGERPRINT_KEYS if frozen[key] != current[key]
+    ]
+    if mismatched:
+        raise RuntimeError(
+            "冻结记录与当前环境的 "
+            + ", ".join(mismatched)
+            + " 不一致, 请重新运行 experiment.py 后再执行 followup.py"
+        )
+
+
+def stamp_fingerprint(record):
+    """把本次数据库, 协议和工具箱提交写进追加记录"""
+    stamped = dict(record)
+    stamped.update(experiment.fingerprints())
+    return stamped
+
+
 def selection_table(prices, factors):
-    """优先读首轮 selection.csv, 避免另算一套发现期和选择期"""
+    """读取首轮 selection.csv 前核对指纹, 对不上就停止"""
     saved = experiment.RESULTS / "selection.csv"
+    frozen_path = experiment.RESULTS / "frozen_selection.json"
     if saved.exists():
+        if not frozen_path.exists():
+            raise RuntimeError(
+                "存在 selection.csv 但缺少 frozen_selection.json, "
+                "请重新运行 experiment.py 后再执行 followup.py"
+            )
+        frozen = json.loads(frozen_path.read_text(encoding="utf-8"))
+        require_same_fingerprint(frozen, experiment.fingerprints())
         return pd.read_csv(saved)
     rows = []
     label = experiment.make_label(prices, experiment.HORIZON)
@@ -70,7 +106,7 @@ def main():
     out.mkdir(exist_ok=True)
     prices, industry = experiment.load_prices()
     factors = experiment.make_factors(prices)
-    record = followup_record(selection_table(prices, factors))
+    record = stamp_fingerprint(followup_record(selection_table(prices, factors)))
     (out / "followup_protocol.json").write_text(
         json.dumps(record, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
