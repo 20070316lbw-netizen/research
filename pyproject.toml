@@ -10,3 +10,9 @@ dependencies = [
 
 [tool.uv.sources]
 quanttoolkit = { git = "https://github.com/20070316lbw-netizen/QuantToolKit.git" }
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+]

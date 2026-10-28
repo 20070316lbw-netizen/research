@@ -1,0 +1,8 @@
+{
+  "selected": "low_volatility_63",
+  "protocol_sha256": "3709c3845e023e762968282ec3d1a4d65d4f36cc73063d9dd520aa5d0ca8deb8",
+  "metrics_seen": [
+    "discovery",
+    "selection"
+  ]
+}

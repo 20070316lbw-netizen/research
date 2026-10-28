@@ -1,0 +1,32 @@
+{
+  "created": "2026-10-28",
+  "source_protocol": "QuantToolKit research/factor_search_20261018/protocol.json",
+  "database": "data/quanttoolkit.db",
+  "primary_label": "adj_close[t+22] / adj_close[t+1] - 1",
+  "benchmarks": ["mom_63", "mom_231_skip_21"],
+  "candidates": {
+    "intraday_strength_63": "sum(log(close/open), 63), positive",
+    "overnight_reversal_63": "-sum(log(adjusted_open/previous_adj_close), 63), positive",
+    "closing_pressure_21": "mean((2*close-high-low)/(high-low), 21), positive",
+    "price_volume_divergence_63": "-corr(log_return, log(volume/mean(volume,21)), 63), positive",
+    "low_volatility_63": "-std(log_return,63), positive",
+    "smooth_momentum_63": "sum(log_return,63)/sum(abs(log_return),63), positive"
+  },
+  "discovery": ["2017-01-01", "2020-12-31"],
+  "selection": ["2021-01-01", "2022-12-31"],
+  "check": ["2023-01-01", "2024-12-31"],
+  "holdout_this_run": ["2025-01-01", "last available complete label"],
+  "selection_rule": "Highest mean daily Rank IC on selection, fixed positive direction, no window tuning, select one before check/holdout metrics",
+  "comparison": "Identical date/ticker mask for all factors, at least 252 historical price changes, volume positive for current and past 63 records and label endpoints, require all factor values and label",
+  "boundary": "Purge signal dates whose label exit crosses the period end, keep entry dates unchanged",
+  "uncertainty": "Paired moving-block bootstrap on daily Rank IC difference, 63-day blocks, 2000 replicates, seed 18",
+  "secondary": "Per-year IC, quintile monotonicity, 5/63-day horizon checks, sub-industry demeaned IC, correlation with momentum",
+  "counting": "Windows, gaps and labels count each security's own records on the filled trading calendar",
+  "limitations": [
+    "Current universe has survivorship and historical membership bias",
+    "Not a claim that 2025+ was never inspected in earlier work",
+    "Overlapping forward returns are diagnostics, not portfolio NAV",
+    "No fees or executable PnL claim",
+    "Historical comparison is not proof of future non-inferiority"
+  ]
+}

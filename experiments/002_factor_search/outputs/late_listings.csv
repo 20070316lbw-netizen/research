@@ -1,0 +1,40 @@
+ticker,name,sub_industry,n_prices,first_price,last_price,first_sample,n_valid
+TWLO,Twilio,Systems Software,2601,2016-06-23,2026-10-27,2017-06-23,2327
+FTV,Fortive,Industrial Machinery & Supplies & Components,2594,2016-07-05,2026-10-27,2017-07-05,2320
+DELL,Dell Technologies,"Technology Hardware, Storage & Peripherals",2563,2016-08-17,2026-10-27,2017-08-17,2289
+VST,Vistra Corp.,Electric Utilities,2529,2016-10-05,2026-10-27,2017-10-05,2255
+HWM,Howmet Aerospace,Aerospace & Defense,2510,2016-11-01,2026-10-27,2017-11-01,2236
+INVH,Invitation Homes,Single-Family Residential REITs,2448,2017-02-01,2026-10-27,2018-02-01,2174
+CVNA,Carvana,Automotive Retail,2388,2017-04-28,2026-10-27,2018-04-30,2114
+IR,Ingersoll Rand,Industrial Machinery & Supplies & Components,2378,2017-05-12,2026-10-27,2018-05-14,2104
+VICI,Vici Properties,Hotel & Resort REITs,2217,2018-01-02,2026-10-27,2019-01-03,1943
+BE,Bloom Energy,Electrical Components & Equipment,2076,2018-07-25,2026-10-27,2019-07-26,1802
+VRT,Vertiv,Electrical Components & Equipment,2070,2018-08-02,2026-10-27,2020-03-31,1631
+MRNA,Moderna,Biotechnology,1982,2018-12-07,2026-10-27,2019-12-09,1708
+FOXA,Fox Corporation (Class A),Broadcasting,1919,2019-03-12,2026-10-27,2020-03-11,1645
+FOX,Fox Corporation (Class B),Broadcasting,1918,2019-03-13,2026-10-27,2020-03-12,1644
+DOW,Dow Inc.,Commodity Chemicals,1913,2019-03-20,2026-10-27,2020-03-19,1639
+UBER,Uber,Passenger Ground Transportation,1877,2019-05-10,2026-10-27,2020-05-11,1603
+CRWD,CrowdStrike,Systems Software,1855,2019-06-12,2026-10-27,2020-06-11,1581
+DDOG,Datadog,Application Software,1786,2019-09-19,2026-10-27,2020-09-18,1512
+CARR,Carrier Global,Building Products,1661,2020-03-19,2026-10-27,2021-03-19,1387
+OTIS,Otis Worldwide,Industrial Machinery & Supplies & Components,1661,2020-03-19,2026-10-27,2021-03-19,1387
+PLTR,Palantir Technologies,Application Software,1526,2020-09-30,2026-10-27,2021-09-30,1252
+DASH,DoorDash,Specialized Consumer Services,1477,2020-12-09,2026-10-27,2021-12-09,1203
+ABNB,Airbnb,"Hotels, Resorts & Cruise Lines",1476,2020-12-10,2026-10-27,2021-12-10,1202
+EXE,Expand Energy,Oil & Gas Exploration & Production,1435,2021-02-10,2026-10-27,2022-02-09,1161
+COIN,Coinbase,Financial Exchanges & Data,1392,2021-04-14,2026-10-27,2022-04-12,1118
+APP,AppLovin,Advertising,1391,2021-04-15,2026-10-27,2022-04-13,1117
+HOOD,Robinhood Markets,Investment Banking & Brokerage,1318,2021-07-29,2026-10-27,2022-07-29,1044
+CEG,Constellation Energy,Electric Utilities,1198,2022-01-19,2026-10-27,2023-01-20,924
+GEHC,GE HealthCare,Health Care Equipment,969,2022-12-15,2026-10-27,2023-12-18,695
+KVUE,Kenvue,Personal Care Products,874,2023-05-04,2026-10-27,2024-05-06,600
+VLTO,Veralto,Environmental & Facilities Services,769,2023-10-04,2026-10-27,2024-10-04,495
+RDDT,Reddit,Interactive Media & Services,653,2024-03-21,2026-10-27,2025-03-25,379
+SOLV,Solventum,Health Care Technology,650,2024-03-26,2026-10-27,2025-03-28,376
+GEV,GE Vernova,Heavy Electrical Equipment,649,2024-03-27,2026-10-27,2025-03-31,375
+SNDK,Sandisk,"Technology Hardware, Storage & Peripherals",428,2025-02-13,2026-10-27,2026-02-17,154
+Q,Qnity Electronics,Semiconductor Materials & Equipment,252,2025-10-27,2026-10-27,,0
+FDXF,FedEx Freight,Cargo Ground Transportation,107,2026-05-27,2026-10-27,,0
+HONA,Honeywell Aerospace,Aerospace & Defense,94,2026-06-15,2026-10-27,,0
+VYLR,Vylor,Agricultural Products & Services,19,2026-10-01,2026-10-27,,0

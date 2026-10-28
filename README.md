@@ -4,6 +4,7 @@
 当前通过 Git 依赖安装 `quanttoolkit`, 版本由 `uv.lock` 固定。
 
 第一个实验: [21 期动量与未来 5 期收益](experiments/001_momentum/README.md)。
+第二个实验: [量价因子搜索](experiments/002_factor_search/README.md)。
 在本目录运行, 使用已有的 `data/quanttoolkit.db`:
 
 ```bash

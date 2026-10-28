@@ -1,0 +1,12 @@
+{
+  "factor": "overnight_reversal_63",
+  "formula": "-sum(log((open[t] * adj_close[t] / close[t]) / adj_close[t-1]), 63)",
+  "selection_reason": "任务指定的追加候选, 原规则是发现期和选择期都为正的候选里较小 Rank IC 最高",
+  "rule_choice_from_discovery_and_selection": "overnight_reversal_63",
+  "rule_matches_overnight": true,
+  "timing": "写在首轮冻结之后, 不回头更换首轮因子",
+  "status": "探索性的第二次查看, 不是未被触碰的样本外确认",
+  "windows_or_signs_changed": false,
+  "comparison_mask": "八个因子的共同掩码, 与首轮相同",
+  "no_further_candidate_switches": true
+}
